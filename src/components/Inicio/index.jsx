@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import Bg from '../../assets/bgtexture.png'
 export const Container = styled.div`
   
   
@@ -10,7 +10,7 @@ export const Container = styled.div`
     width: 100%;
     height: 85vh;
     background: linear-gradient(rgba(20, 20, 20, 1), rgba(20, 20, 20, 1)),
-      url(../assets/bgtexture.png);
+      url(${Bg});
     background-blend-mode: overlay;
   }
 
